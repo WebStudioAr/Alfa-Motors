@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5" />
+  <meta name="theme-color" content="#0B0B0B" />
+  <meta name="description" content="Alfa Motors — Concesionaria premium en Hurlingham, Gral. Francisco Miranda 877. Usados garantizados y 0km con atención personalizada." />
+  <meta property="og:title" content="Alfa Motors · Concesionaria premium en Hurlingham" />
+  <meta property="og:description" content="Usados garantizados y 0km con atención personalizada. Gral. Francisco Miranda 877, Hurlingham." />
+  <meta property="og:type" content="website" />
+  <title>Alfa Motors · Tu próximo auto te espera</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ GRAIN / CARBON FIBER OVERLAY ============ -->
+  <div class="grain" aria-hidden="true"></div>
+  <div class="carbon-bg" aria-hidden="true"></div>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo" aria-label="Alfa Motors">
+        <img src="Branding/Alfamotores_logo.jpg" alt="Alfa Motors" class="nav__logo-img" />
+      </a>
+
+      <nav class="nav__links" aria-label="Navegación principal">
+        <a href="#confianza">Nosotros</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#financiacion">Financiación</a>
+        <a href="#resenas">Reseñas</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <a href="https://wa.me/PLACEHOLDER_WHATSAPP" target="_blank" rel="noopener" class="btn btn--wa nav__cta">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6A12 12 0 0 0 12 24c6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.5ZM12 22a9.9 9.9 0 0 1-5.1-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.9 9.9 0 0 1 2 12C2 6.5 6.5 2 12 2s10 4.5 10 10-4.5 10-10 10Zm5.5-7.5c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.7-1.7c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.4-.3.3-1 1-1 2.4 0 1.4 1 2.8 1.2 3 .2.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.4Z"/>
+        </svg>
+        <span>WhatsApp</span>
+      </a>
+
+      <button class="nav__burger" id="navBurger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="nav__mobile" id="navMobile">
+      <a href="#confianza">Nosotros</a>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#financiacion">Financiación</a>
+      <a href="#resenas">Reseñas</a>
+      <a href="#contacto">Contacto</a>
+      <a href="https://wa.me/PLACEHOLDER_WHATSAPP" target="_blank" rel="noopener" class="btn btn--wa">Hablar por WhatsApp</a>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <!-- Cinematic overlay -->
+    <div class="hero__vignette" aria-hidden="true"></div>
+    <div class="hero__glow hero__glow--1" aria-hidden="true"></div>
+    <div class="hero__glow hero__glow--2" aria-hidden="true"></div>
+
+    <!-- Hero layout: copy left, car right -->
+    <div class="hero__content">
+      <div class="hero__copy">
+        <div class="hero__eyebrow">
+          <span class="dot dot--orange"></span>
+          <span>HURLINGHAM · BUENOS AIRES</span>
+        </div>
+
+        <h1 class="hero__title">
+          <span class="hero__title-line">Tu próximo auto</span>
+          <span class="hero__title-line">está en <em>Alfa Motors</em></span>
+        </h1>
+
+        <p class="hero__sub">
+          Usados garantizados y 0km con atención personalizada.<br/>
+          Transparencia, asesoramiento real y experiencia premium.
+        </p>
+
+        <div class="hero__cta">
+          <a href="#catalogo" class="btn btn--primary">
+            <span>Ver catálogo</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+              <path d="M5 12h14M13 6l6 6-6 6"/>
+            </svg>
+          </a>
+          <a href="https://wa.me/PLACEHOLDER_WHATSAPP?text=Hola%20Alfa%20Motors,%20me%20interesa%20ver%20el%20catálogo" target="_blank" rel="noopener" class="btn btn--ghost">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6A12 12 0 0 0 12 24c6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.5ZM12 22a9.9 9.9 0 0 1-5.1-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.9 9.9 0 0 1 2 12C2 6.5 6.5 2 12 2s10 4.5 10 10-4.5 10-10 10Zm5.5-7.5c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.7-1.7c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.4-.3.3-1 1-1 2.4 0 1.4 1 2.8 1.2 3 .2.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.4Z"/>
+            </svg>
+            <span>Hablar por WhatsApp</span>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Carousel + controls column -->
+      <div class="hero__stage-wrap">
+      <!-- Loading carousel of real car photos -->
+      <div class="hero__stage hero__stage--loader" id="heroStage" aria-roledescription="carousel">
+        <div class="loader-carousel">
+          <!-- Image stack + image-level overlays -->
+          <div class="loader-carousel__media">
+            <div class="loader-carousel__stack" id="loaderStack"></div>
+
+            <!-- Arrows -->
+            <button class="loader-carousel__arrow loader-carousel__arrow--prev" id="loaderPrev" aria-label="Anterior">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+            </button>
+            <button class="loader-carousel__arrow loader-carousel__arrow--next" id="loaderNext" aria-label="Siguiente">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
+            </button>
+          </div>
+
+          <!-- Top HUD: index + progress -->
+          <div class="loader-carousel__hud">
+            <div class="loader-carousel__index">
+              <span class="loader-carousel__num" id="loaderCurrent">01</span>
+              <span class="loader-carousel__sep">/</span>
+              <span class="loader-carousel__total" id="loaderTotal">09</span>
+            </div>
+            <div class="loader-carousel__bar" aria-hidden="true">
+              <div class="loader-carousel__bar-fill" id="loaderBar"></div>
+            </div>
+            <button class="loader-carousel__play" id="loaderPlay" aria-label="Pausar reproducción automática">
+              <svg class="icon-pause" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>
+              <svg class="icon-play" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+          </div>
+
+          <!-- Info card (updated by JS) -->
+          <div class="loader-carousel__info" id="loaderInfo">
+            <div class="loader-carousel__info-head">
+              <span class="loader-carousel__tag" id="loaderTag">DESTACADO</span>
+              <span class="loader-carousel__year" id="loaderYear">2025</span>
+            </div>
+            <div class="loader-carousel__title" id="loaderTitle">VOLKSWAGEN AMAROK HIGHLINE V6</div>
+            <ul class="loader-carousel__specs" id="loaderSpecs"></ul>
+          </div>
+        </div>
+
+        <!-- Slider controls (dots populated by JS) -->
+        <div class="hero__controls" id="heroDots" aria-label="Seleccionar vehículo"></div>
+      </div>
+      </div>
+    </div>
+
+    <!-- Scroll hint -->
+    <div class="hero__scroll" aria-hidden="true">
+      <span>SCROLL</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE / TICKER ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>USADOS GARANTIZADOS</span><span class="marquee__dot">●</span>
+      <span>ATENCIÓN PERSONALIZADA</span><span class="marquee__dot">●</span>
+      <span>0KM Y FINANCIACIÓN</span><span class="marquee__dot">●</span>
+      <span>HURLINGHAM · BUENOS AIRES</span><span class="marquee__dot">●</span>
+      <span>USADOS GARANTIZADOS</span><span class="marquee__dot">●</span>
+      <span>ATENCIÓN PERSONALIZADA</span><span class="marquee__dot">●</span>
+      <span>0KM Y FINANCIACIÓN</span><span class="marquee__dot">●</span>
+      <span>HURLINGHAM · BUENOS AIRES</span><span class="marquee__dot">●</span>
+    </div>
+  </div>
+
+  <!-- ============ NOSOTROS ============ -->
+  <section class="nosotros" id="confianza">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-eyebrow"><span class="dot dot--orange"></span>POR QUÉ ALFA MOTORS</div>
+        <h2 class="section-title">Confianza, transparencia<br/>y <em>trato directo</em>.</h2>
+        <p class="section-sub">Más de 20 años atendiendo a vecinos de Hurlingham y todo Buenos Aires. Sin letra chica, sin presiones, con la transparencia que merecés.</p>
+      </div>
+
+      <div class="features">
+
+        <article class="feature reveal">
+          <div class="feature__head">
+            <span class="feature__num">01</span>
+            <span class="feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-12V5l-8-3-8 3v5c0 8 8 12 8 12Z"/>
+                <path d="m9 12 2 2 4-4"/>
+              </svg>
+            </span>
+          </div>
+          <h3>Usados garantizados</h3>
+          <p>Cada unidad pasa por revisión mecánica y verificación legal antes de salir a la venta.</p>
+          <span class="feature__line"></span>
+        </article>
+
+        <article class="feature reveal">
+          <div class="feature__head">
+            <span class="feature__num">02</span>
+            <span class="feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 18v-6a9 9 0 0 1 18 0v6"/>
+                <path d="M21 19a2 2 0 0 1-2 2h-1v-6h3v4ZM3 19a2 2 0 0 0 2 2h1v-6H3v4Z"/>
+              </svg>
+            </span>
+          </div>
+          <h3>Atención personalizada</h3>
+          <p>Asesores que te escuchan y te recomiendan el auto que realmente necesitás. Sin venta agresiva.</p>
+          <span class="feature__line"></span>
+        </article>
+
+        <article class="feature reveal">
+          <div class="feature__head">
+            <span class="feature__num">03</span>
+            <span class="feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M13 2 4.09 12.97a1 1 0 0 0 .78 1.63h6.39l-1.26 6.45a.5.5 0 0 0 .89.4l8.93-10.97a1 1 0 0 0-.78-1.63h-6.39l1.26-6.45a.5.5 0 0 0-.89-.4Z"/>
+              </svg>
+            </span>
+          </div>
+          <h3>Respuesta rápida</h3>
+          <p>Te respondemos por WhatsApp en horario comercial. Sin formularios eternos.</p>
+          <span class="feature__line"></span>
+        </article>
+
+        <article class="feature reveal">
+          <div class="feature__head">
+            <span class="feature__num">04</span>
+            <span class="feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z"/>
+                <circle cx="12" cy="12" r="3"/>
+              </svg>
+            </span>
+          </div>
+          <h3>Transparencia total</h3>
+          <p>Te mostramos historial, papeles y estado real. Lo que ves es lo que comprás.</p>
+          <span class="feature__line"></span>
+        </article>
+
+        <article class="feature reveal">
+          <div class="feature__head">
+            <span class="feature__num">05</span>
+            <span class="feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/>
+                <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/>
+                <path d="M4 22h16"/>
+                <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/>
+                <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/>
+                <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/>
+              </svg>
+            </span>
+          </div>
+          <h3>+ 20 años de experiencia</h3>
+          <p>Más de dos décadas asesorando familias y compradores en Hurlingham y zona oeste.</p>
+          <span class="feature__line"></span>
+        </article>
+
+        <article class="feature reveal">
+          <div class="feature__head">
+            <span class="feature__num">06</span>
+            <span class="feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 4h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h4"/>
+                <rect x="9" y="2" width="6" height="4" rx="1"/>
+                <path d="m9 14 2 2 4-4"/>
+              </svg>
+            </span>
+          </div>
+          <h3>Asesoramiento integral</h3>
+          <p>Te acompañamos en papeles, transferencias y consultas de financiación de principio a fin.</p>
+          <span class="feature__line"></span>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CATÁLOGO ============ -->
+  <section class="catalogo" id="catalogo">
+    <div class="wrap">
+      <div class="section-head section-head--row">
+        <div>
+          <div class="section-eyebrow"><span class="dot dot--orange"></span>VEHÍCULOS DESTACADOS</div>
+          <h2 class="section-title">Algunas joyas <em>de nuestro stock</em>.</h2>
+        </div>
+        <a href="https://wa.me/PLACEHOLDER_WHATSAPP?text=Hola%20Alfa%20Motors,%20quisiera%20ver%20el%20catálogo%20completo" target="_blank" rel="noopener" class="btn btn--text">
+          Ver catálogo completo
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+
+      <div class="cars-grid">
+
+        <!-- CAR 1 · VW Amarok Highline V6 2025 -->
+        <article class="car-card reveal" data-car-id="amarok-v6-2025">
+          <div class="car-card__media">
+            <span class="car-card__badge car-card__badge--orange">0KM · PREMIUM</span>
+            <img class="car-card__img" src="Autos_Imagenes/VOLKSWAGEN-AMAROK-HIGHLINE-V6-2025-0km.png" alt="VW Amarok Highline V6 2025 0km" />
+          </div>
+          <div class="car-card__body">
+            <div class="car-card__top">
+              <h3>VW Amarok Highline V6</h3>
+              <span class="car-card__price">Consultar</span>
+            </div>
+            <ul class="car-card__specs">
+              <li><span>Año</span><strong>2025</strong></li>
+              <li><span>Km</span><strong>0</strong></li>
+              <li><span>Motor</span><strong>V6</strong></li>
+              <li><span>Tipo</span><strong>Pickup</strong></li>
+            </ul>
+            <a href="https://wa.me/PLACEHOLDER_WHATSAPP?text=Hola%20Alfa%20Motors,%20me%20interesa%20la%20Amarok%20Highline%20V6%202025%200km" target="_blank" rel="noopener" class="btn btn--wa-outline btn--block">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6A12 12 0 0 0 12 24c6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.5Z"/></svg>
+              Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+        <!-- CAR 2 · VW Golf GTI 2017 -->
+        <article class="car-card reveal" data-car-id="golf-gti-2017">
+          <div class="car-card__media">
+            <span class="car-card__badge car-card__badge--orange">DESTACADO</span>
+            <img class="car-card__img" src="Autos_Imagenes/VOLKSWAGEN-GOLF-GTI-2017.png" alt="VW Golf GTI 2017" />
+          </div>
+          <div class="car-card__body">
+            <div class="car-card__top">
+              <h3>VW Golf GTI</h3>
+              <span class="car-card__price">Consultar</span>
+            </div>
+            <ul class="car-card__specs">
+              <li><span>Año</span><strong>2017</strong></li>
+              <li><span>Versión</span><strong>GTI</strong></li>
+              <li><span>Motor</span><strong>2.0 Turbo</strong></li>
+              <li><span>Tipo</span><strong>Sport</strong></li>
+            </ul>
+            <a href="https://wa.me/PLACEHOLDER_WHATSAPP?text=Hola%20Alfa%20Motors,%20me%20interesa%20el%20VW%20Golf%20GTI%202017" target="_blank" rel="noopener" class="btn btn--wa-outline btn--block">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6A12 12 0 0 0 12 24c6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.5Z"/></svg>
+              Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+        <!-- CAR 3 · Chevrolet Tracker 2023 -->
+        <article class="car-card reveal" data-car-id="tracker-2023">
+          <div class="car-card__media">
+            <span class="car-card__badge">PRIMERA MANO</span>
+            <img class="car-card__img" src="Autos_Imagenes/CHEVROLET-TRACKER-2023-82.000kms-PrimeraMano-1_2Turbo-AT.png" alt="Chevrolet Tracker 2023" />
+          </div>
+          <div class="car-card__body">
+            <div class="car-card__top">
+              <h3>Chevrolet Tracker</h3>
+              <span class="car-card__price">Consultar</span>
+            </div>
+            <ul class="car-card__specs">
+              <li><span>Año</span><strong>2023</strong></li>
+              <li><span>Km</span><strong>82.000</strong></li>
+              <li><span>Caja</span><strong>Automática</strong></li>
+              <li><span>Motor</span><strong>1.2 Turbo</strong></li>
+            </ul>
+            <a href="https://wa.me/PLACEHOLDER_WHATSAPP?text=Hola%20Alfa%20Motors,%20me%20interesa%20la%20Chevrolet%20Tracker%202023" target="_blank" rel="noopener" class="btn btn--wa-outline btn--block">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6A12 12 0 0 0 12 24c6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.5Z"/></svg>
+              Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+        <!-- CAR 4 · VW T-Cross 2021 -->
+        <article class="car-card reveal" data-car-id="tcross-2021">
+          <div class="car-card__media">
+            <span class="car-card__badge">USADO · GARANTIZADO</span>
+            <img class="car-card__img" src="Autos_Imagenes/Volkswagen-T_cross1_6_Trendline-2021-102000km.png" alt="VW T-Cross Trendline 2021" />
+          </div>
+          <div class="car-card__body">
+            <div class="car-card__top">
+              <h3>VW T-Cross Trendline</h3>
+              <span class="car-card__price">Consultar</span>
+            </div>
+            <ul class="car-card__specs">
+              <li><span>Año</span><strong>2021</strong></li>
+              <li><span>Km</span><strong>102.000</strong></li>
+              <li><span>Motor</span><strong>1.6</strong></li>
+              <li><span>Combustible</span><strong>Nafta</strong></li>
+            </ul>
+            <a href="https://wa.me/PLACEHOLDER_WHATSAPP?text=Hola%20Alfa%20Motors,%20me%20interesa%20la%20VW%20T-Cross%202021" target="_blank" rel="noopener" class="btn btn--wa-outline btn--block">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6A12 12 0 0 0 12 24c6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.5Z"/></svg>
+              Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+        <!-- CAR 5 · Chevrolet Cruze LT 2018 -->
+        <article class="car-card reveal" data-car-id="cruze-lt-2018">
+          <div class="car-card__media">
+            <span class="car-card__badge">USADO · GARANTIZADO</span>
+            <img class="car-card__img" src="Autos_Imagenes/Chevrolet-CruzLT-2018-119000km.png" alt="Chevrolet Cruze LT 2018" />
+          </div>
+          <div class="car-card__body">
+            <div class="car-card__top">
+              <h3>Chevrolet Cruze LT</h3>
+              <span class="car-card__price">Consultar</span>
+            </div>
+            <ul class="car-card__specs">
+              <li><span>Año</span><strong>2018</strong></li>
+              <li><span>Km</span><strong>119.000</strong></li>
+              <li><span>Versión</span><strong>LT</strong></li>
+              <li><span>Combustible</span><strong>Nafta</strong></li>
+            </ul>
+            <a href="https://wa.me/PLACEHOLDER_WHATSAPP?text=Hola%20Alfa%20Motors,%20me%20interesa%20el%20Chevrolet%20Cruze%20LT%202018" target="_blank" rel="noopener" class="btn btn--wa-outline btn--block">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6A12 12 0 0 0 12 24c6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.5Z"/></svg>
+              Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+        <!-- CAR 6 · Citroen Berlingo 2014 -->
+        <article class="car-card reveal" data-car-id="berlingo-2014">
+          <div class="car-card__media">
+            <span class="car-card__badge">USADO · GARANTIZADO</span>
+            <img class="car-card__img" src="Autos_Imagenes/CITROEN-BERLINGO-HDI-5PLAZAS-2014-147000kms-Diesel.png" alt="Citroen Berlingo HDI 2014" />
+          </div>
+          <div class="car-card__body">
+            <div class="car-card__top">
+              <h3>Citroën Berlingo HDI</h3>
+              <span class="car-card__price">Consultar</span>
+            </div>
+            <ul class="car-card__specs">
+              <li><span>Año</span><strong>2014</strong></li>
+              <li><span>Km</span><strong>147.000</strong></li>
+              <li><span>Plazas</span><strong>5</strong></li>
+              <li><span>Combustible</span><strong>Diésel</strong></li>
+            </ul>
+            <a href="https://wa.me/PLACEHOLDER_WHATSAPP?text=Hola%20Alfa%20Motors,%20me%20interesa%20la%20Citroen%20Berlingo%202014" target="_blank" rel="noopener" class="btn btn--wa-outline btn--block">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6A12 12 0 0 0 12 24c6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.5Z"/></svg>
+              Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+        <!-- "More stock" card -->
+        <article class="car-card car-card--more reveal">
+          <div class="car-card__more">
+            <div class="car-card__more-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" width="40" height="40">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 8v8M8 12h8"/>
+              </svg>
+            </div>
+            <div>
+              <h3>Más unidades en stock</h3>
+              <p>Consultá por modelos, años y kilometrajes que no veas listados. Trabajamos con stock rotativo.</p>
+            </div>
+            <a href="https://wa.me/PLACEHOLDER_WHATSAPP?text=Hola%20Alfa%20Motors,%20quiero%20ver%20el%20catálogo%20completo" target="_blank" rel="noopener" class="btn btn--primary">
+              Ver stock completo
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FINANCIACIÓN ============ -->
+  <section class="financiacion" id="financiacion">
+    <div class="wrap">
+      <div class="finance-card reveal">
+        <div class="finance-card__bg" aria-hidden="true"></div>
+        <div class="finance-card__glow" aria-hidden="true"></div>
+
+        <div class="finance-card__content">
+          <div class="section-eyebrow"><span class="dot dot--orange"></span>FINANCIACIÓN</div>
+          <h2 class="finance-card__title">
+            Consultá disponibilidad<br/><em>de financiación</em>.
+          </h2>
+          <p class="finance-card__sub">
+            Trabajamos con distintas opciones según el vehículo y el perfil del cliente.
+            Coordiná una consulta con un asesor y te orientamos sin compromiso.
+          </p>
+
+          <ul class="finance-card__chips">
+            <li>Asesoramiento sin compromiso</li>
+            <li>Opciones según tu vehículo</li>
+            <li>Te explicamos paso a paso</li>
+          </ul>
+
+          <div class="finance-card__cta">
+            <a href="https://wa.me/PLACEHOLDER_WHATSAPP?text=Hola%20Alfa%20Motors,%20quisiera%20consultar%20por%20financiación" target="_blank" rel="noopener" class="btn btn--primary btn--large">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6A12 12 0 0 0 12 24c6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.5ZM12 22a9.9 9.9 0 0 1-5.1-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.9 9.9 0 0 1 2 12C2 6.5 6.5 2 12 2s10 4.5 10 10-4.5 10-10 10Z"/></svg>
+              <span>Consultar financiación</span>
+            </a>
+            <span class="finance-card__note">* Disponibilidad sujeta a evaluación crediticia.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VENDER TU AUTO ============ -->
+  <section class="vender" id="vender">
+    <div class="vender__bg" aria-hidden="true">
+      <img src="Autos_Imagenes/Concesionaria_fondo.png" alt="" />
+      <div class="vender__bg-overlay"></div>
+    </div>
+
+    <div class="wrap vender__wrap">
+      <div class="vender__content reveal">
+        <div class="section-eyebrow"><span class="dot dot--orange"></span>VENDÉ TU AUTO</div>
+        <h2 class="vender__title">
+          ¿Querés vender <em>tu auto</em>?
+        </h2>
+        <p class="vender__sub">
+          En Alfa Motors te lo hacemos fácil, rápido y seguro.
+        </p>
+
+        <ul class="vender__points">
+          <li>
+            <span class="vender__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </span>
+            <div>
+              <strong>Compramos autos desde 2015 en adelante</strong>
+              <span>Modelos recientes con buen historial</span>
+            </div>
+          </li>
+          <li>
+            <span class="vender__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9 12h6M12 9v6"/></svg>
+            </span>
+            <div>
+              <strong>Tasación justa y transparente</strong>
+              <span>Te explicamos cómo llegamos al valor</span>
+            </div>
+          </li>
+          <li>
+            <span class="vender__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1v-6h3v4ZM3 19a2 2 0 0 0 2 2h1v-6H3v4Z"/></svg>
+            </span>
+            <div>
+              <strong>Atención personalizada</strong>
+              <span>Hablás directo con un asesor real</span>
+            </div>
+          </li>
+          <li>
+            <span class="vender__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18M4 22h16M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+            </span>
+            <div>
+              <strong>+ 20 años de experiencia</strong>
+              <span>Nos respalda una trayectoria reconocida</span>
+            </div>
+          </li>
+        </ul>
+
+        <a href="https://wa.me/PLACEHOLDER_WHATSAPP?text=Hola%20Alfa%20Motors,%20quiero%20vender%20mi%20auto" target="_blank" rel="noopener" class="btn btn--mega btn--mega-orange">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6A12 12 0 0 0 12 24c6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.5Z"/>
+          </svg>
+          <span>Quiero vender mi auto</span>
+        </a>
+        <div class="vender__small">Coordinamos una tasación en pocos minutos</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RESEÑAS ============ -->
+  <section class="resenas" id="resenas">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-eyebrow"><span class="dot dot--orange"></span>RESEÑAS</div>
+        <h2 class="section-title">Lo que dicen <em>nuestros clientes</em>.</h2>
+        <p class="section-sub">La confianza se gana de a un cliente por vez. Algunos comentarios reales de compradores y vendedores que confiaron en nosotros.</p>
+      </div>
+
+      <div class="reviews-grid">
+        <article class="review-card reveal">
+          <div class="review-card__head">
+            <div class="review-card__avatar">M</div>
+            <div>
+              <div class="review-card__name">Cliente verificado</div>
+              <div class="review-card__meta">Hurlingham · Bs. As.</div>
+            </div>
+            <div class="review-card__stars" aria-label="5 estrellas">★★★★★</div>
+          </div>
+          <p class="review-card__text">
+            "Buena atención desde el primer contacto. Me explicaron todo el proceso y los papeles sin apuros."
+          </p>
+          <div class="review-card__src">Comentario representativo · reemplazar con reseña real</div>
+        </article>
+
+        <article class="review-card reveal">
+          <div class="review-card__head">
+            <div class="review-card__avatar">A</div>
+            <div>
+              <div class="review-card__name">Cliente verificado</div>
+              <div class="review-card__meta">Zona oeste · Bs. As.</div>
+            </div>
+            <div class="review-card__stars" aria-label="5 estrellas">★★★★★</div>
+          </div>
+          <p class="review-card__text">
+            "Transparentes con el estado del vehículo y los papeles. La operación fue ágil y sin sorpresas."
+          </p>
+          <div class="review-card__src">Comentario representativo · reemplazar con reseña real</div>
+        </article>
+
+        <article class="review-card reveal">
+          <div class="review-card__head">
+            <div class="review-card__avatar">G</div>
+            <div>
+              <div class="review-card__name">Cliente verificado</div>
+              <div class="review-card__meta">Morón · Bs. As.</div>
+            </div>
+            <div class="review-card__stars" aria-label="5 estrellas">★★★★★</div>
+          </div>
+          <p class="review-card__text">
+            "Trato cercano y profesional. Volvería a operar con ellos sin dudar."
+          </p>
+          <div class="review-card__src">Comentario representativo · reemplazar con reseña real</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA FINAL ============ -->
+  <section class="cta-final" id="contacto">
+    <div class="cta-final__bg" aria-hidden="true"></div>
+    <div class="cta-final__glow" aria-hidden="true"></div>
+    <div class="wrap cta-final__wrap">
+      <div class="cta-final__eyebrow"><span class="dot dot--orange"></span>HABLEMOS</div>
+      <h2 class="cta-final__title">
+        Encontrá hoy <em>tu próximo auto</em>.
+      </h2>
+      <p class="cta-final__sub">
+        Un asesor te responde por WhatsApp en minutos.<br/>
+        Sin compromiso, sin formularios eternos.
+      </p>
+      <a href="https://wa.me/PLACEHOLDER_WHATSAPP?text=Hola%20Alfa%20Motors,%20quisiera%20hablar%20con%20un%20asesor" target="_blank" rel="noopener" class="btn btn--mega">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6A12 12 0 0 0 12 24c6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.5ZM12 22a9.9 9.9 0 0 1-5.1-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.9 9.9 0 0 1 2 12C2 6.5 6.5 2 12 2s10 4.5 10 10-4.5 10-10 10Zm5.5-7.5c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.7-1.7c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.4-.3.3-1 1-1 2.4 0 1.4 1 2.8 1.2 3 .2.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.4Z"/>
+        </svg>
+        <span>Hablar con un asesor</span>
+      </a>
+      <div class="cta-final__small">o llamanos durante horario comercial</div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="wrap footer__wrap">
+
+      <div class="footer__brand">
+        <a href="#hero" class="nav__logo">
+          <img src="Branding/Alfamotores_logo.jpg" alt="Alfa Motors" class="nav__logo-img" />
+        </a>
+        <p>Concesionaria premium en Hurlingham. Usados garantizados y 0km con atención personalizada y transparencia real.</p>
+        <div class="footer__social">
+          <a href="https://instagram.com/alfamotorsventas" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+            </svg>
+          </a>
+          <a href="https://wa.me/PLACEHOLDER_WHATSAPP" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6A12 12 0 0 0 12 24c6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.5Z"/></svg>
+          </a>
+          <a href="mailto:PLACEHOLDER_MAIL" aria-label="Mail">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h4>Navegación</h4>
+        <a href="#confianza">Nosotros</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#financiacion">Financiación</a>
+        <a href="#vender">Vendé tu auto</a>
+        <a href="#resenas">Reseñas</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>Visitanos</h4>
+        <p class="footer__addr">
+          Gral. Francisco Miranda 877<br/>
+          B1686 Hurlingham<br/>
+          Buenos Aires, Argentina
+        </p>
+        <h4 style="margin-top:1.4rem">Horarios</h4>
+        <p class="footer__hours">
+          <span>Lun a Vie</span><strong>09:30–12:30 · 15:00–18:00</strong><br/>
+          <span>Sábados</span><strong>09:30–13:00</strong>
+        </p>
+      </div>
+
+      <div class="footer__col footer__map">
+        <h4>Ubicación</h4>
+        <div class="map-placeholder">
+          <iframe
+            src="https://www.google.com/maps?q=Gral.%20Francisco%20Miranda%20877%2C%20Hurlingham%2C%20Buenos%20Aires&output=embed"
+            title="Alfa Motors · Gral. Francisco Miranda 877, Hurlingham"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+          <a class="map-placeholder__cta" href="https://maps.google.com/?q=Gral.+Francisco+Miranda+877,+Hurlingham,+Buenos+Aires" target="_blank" rel="noopener">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Cómo llegar</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer__bottom">
+      <div class="wrap footer__bottom-inner">
+        <span>© <span id="year">2026</span> Alfa Motors · Hurlingham, Buenos Aires.</span>
+        <span>Diseño premium · Atención personalizada.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ FLOATING WHATSAPP ============ -->
+  <a href="https://wa.me/PLACEHOLDER_WHATSAPP?text=Hola%20Alfa%20Motors" target="_blank" rel="noopener" class="float-wa" aria-label="Hablar por WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6A12 12 0 0 0 12 24c6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.5ZM12 22a9.9 9.9 0 0 1-5.1-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.9 9.9 0 0 1 2 12C2 6.5 6.5 2 12 2s10 4.5 10 10-4.5 10-10 10Zm5.5-7.5c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.7-1.7c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.4-.3.3-1 1-1 2.4 0 1.4 1 2.8 1.2 3 .2.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.4Z"/>
+    </svg>
+    <span class="float-wa__pulse" aria-hidden="true"></span>
+  </a>
+
+  <!-- ============ EXPANDABLE SCREEN (cult-ui port) ============ -->
+  <div class="car-screen" id="carScreen" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="carScreenTitle">
+    <div class="car-screen__backdrop" data-car-screen-close></div>
+    <div class="car-screen__shell" role="document">
+      <button class="car-screen__close" id="carScreenClose" aria-label="Cerrar">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+
+      <div class="car-screen__grid">
+        <!-- Media side -->
+        <div class="car-screen__media">
+          <span class="car-screen__tag" id="carScreenTag">DESTACADO</span>
+          <img id="carScreenImg" src="" alt="" />
+          <div class="car-screen__media-glow" aria-hidden="true"></div>
+        </div>
+
+        <!-- Info side -->
+        <div class="car-screen__info">
+          <div class="car-screen__eyebrow">
+            <span class="dot dot--orange"></span>
+            <span>FICHA DEL VEHÍCULO</span>
+          </div>
+
+          <h2 class="car-screen__title" id="carScreenTitle">VW Amarok Highline V6</h2>
+          <p class="car-screen__subtitle" id="carScreenSubtitle">Versión y datos completos</p>
+
+          <ul class="car-screen__specs" id="carScreenSpecs"></ul>
+
+          <div class="car-screen__price-row">
+            <div>
+              <div class="car-screen__price-label">Precio</div>
+              <div class="car-screen__price-value" id="carScreenPrice">Consultar</div>
+            </div>
+            <a id="carScreenWa" href="#" target="_blank" rel="noopener" class="btn btn--wa btn--large">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6A12 12 0 0 0 12 24c6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.5Z"/></svg>
+              <span>Consultar por WhatsApp</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
