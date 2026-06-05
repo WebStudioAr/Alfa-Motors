@@ -1326,7 +1326,7 @@ section {
   color: var(--white);
   margin-bottom: .15rem;
 }
-.vender__points span {
+.vender__points span:not(.vender__icon) {
   display: block;
   font-size: .9rem;
   color: var(--gray-light);
