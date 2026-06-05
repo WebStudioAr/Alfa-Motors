@@ -545,7 +545,7 @@
       sTitle.textContent = data.title;
       sSubtitle.textContent = data.subtitle;
       sPrice.textContent = data.price;
-      sWa.href = `https://wa.me/5491161143907?text=${encodeURIComponent('Hola Alfa Motors, ' + data.waText)}`;
+      sWa.href = `https://wa.me/5491165681106?text=${encodeURIComponent('Hola Alfa Motors, ' + data.waText)}`;
 
       sSpecs.innerHTML = SPEC_ROWS
         .filter(row => data[row.key])
